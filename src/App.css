@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  align-items: center;
+}
+
+.App > div {
+  flex: 1;
+  padding: 30px;
+}
+
+.App > div:first-child {
+  text-align: right;
+}
